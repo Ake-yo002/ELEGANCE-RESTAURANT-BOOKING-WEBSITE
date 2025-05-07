@@ -2,7 +2,7 @@ Elegance Restaurant Booking System
 Final Web Development Project
 By Nicole Whittney Akeyo
 
-LIVE DEMO:
+LIVE DEMO: https://elegance-dining-nicoleakeyo.netlify.app/
 
 1. Introduction
 This project is a responsive, multi-page website for Elegance Restaurant, featuring a table booking system. Designed to fulfill all academic requirements, it demonstrates proficiency in:
