@@ -35,8 +35,6 @@ function updateThemeIcon() {
 
 // --- Hamburger Menu ---
 function setupMobileMenu() {
-
-    console.log('Setting up mobile menu...');
     
     const hamburger = document.querySelector('.hamburger');
     const mobileMenu = document.querySelector('.mobile-menu');
