@@ -58,6 +58,15 @@
     .hamburger {
         display: flex;
     }
+
+    /* Mobile Menu Fix (ONLY CHANGE MADE) */
+    .mobile-menu {
+        z-index: 1000;
+    }
+    
+    .mobile-menu.active {
+        display: flex !important;
+    }
     
     /* Hero Section */
     .hero {
@@ -247,8 +256,3 @@
         font-weight: normal;
     }
 }
-@media (max-width: 768px) {
-    .mobile-menu.active {
-      display: flex !important;  /* Force show when active */
-    }
-  }
