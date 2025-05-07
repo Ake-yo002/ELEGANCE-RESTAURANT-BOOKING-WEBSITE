@@ -247,3 +247,8 @@
         font-weight: normal;
     }
 }
+@media (max-width: 768px) {
+    .mobile-menu.active {
+      display: flex !important;  /* Force show when active */
+    }
+  }
