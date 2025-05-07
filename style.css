@@ -244,7 +244,7 @@ a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/ELEGANT RESTAURANT SETTING.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
