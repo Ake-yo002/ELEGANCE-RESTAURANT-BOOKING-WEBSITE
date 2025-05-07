@@ -1,0 +1,249 @@
+/**
+ * Responsive Styles for Elegance Restaurant Booking System
+ * Ensures the website looks great on all devices
+ * Author: Nicole Whittney Akeyo
+ */
+
+/* Large Devices (Desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* Medium Devices (Tablets, 992px and up) */
+@media (max-width: 992px) {
+    /* Navigation */
+    .nav-links {
+        gap: 20px;
+    }
+    
+    /* Hero Section */
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    /* About Grid */
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-image {
+        order: -1;
+    }
+    
+    /* Contact Grid */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+/* Small Devices (Landscape Phones, 768px and up) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    /* Hero Section */
+    .hero {
+        height: 80vh;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .page-hero {
+        height: 50vh;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.8rem;
+    }
+    
+    /* Featured Grid */
+    .featured-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* Team Grid */
+    .team-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .footer-col:last-child {
+        grid-column: span 2;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones, 576px and up) */
+@media (max-width: 576px) {
+    /* Typography */
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    /* Featured Grid */
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Team Grid */
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Testimonials */
+    .testimonial p {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-col:last-child {
+        grid-column: span 1;
+    }
+    
+    /* Reservation Form */
+    .reservation-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Very Small Devices (Below 400px) */
+@media (max-width: 400px) {
+    /* Typography */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    /* Buttons */
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    /* Logo */
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    /* Mobile Menu */
+    .mobile-menu {
+        top: 70px;
+    }
+}
+
+/* Specific Adjustments for Tall Mobile Devices */
+@media (max-height: 700px) and (max-width: 576px) {
+    .hero {
+        height: 90vh;
+        padding-top: 70px;
+    }
+    
+    .hero-content {
+        padding-bottom: 50px;
+    }
+}
+
+/* Landscape Orientation Adjustments */
+@media (orientation: landscape) and (max-width: 992px) {
+    .hero {
+        height: 100vh;
+    }
+    
+    .hero-content {
+        padding-top: 50px;
+    }
+    
+    .page-hero {
+        height: 70vh;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .mobile-menu,
+    .theme-toggle,
+    .footer-bottom,
+    .btn {
+        display: none !important;
+    }
+    
+    body {
+        background-color: white !important;
+        color: black !important;
+        font-size: 12pt;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+}

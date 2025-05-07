@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicole Whittney Akeyo">
+    <title>Elegance | Fine Dining & Reservations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">ELEGANCE</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#reservation" class="btn btn-primary">Reserve Now</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#reservation" class="btn btn-primary">Reserve Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Exquisite Dining Experience</h1>
+                <p>Where culinary artistry meets elegant ambiance</p>
+                <a href="#reservation" class="btn btn-primary">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <h2>Our Specialties</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="IMAGES/SIGNATURE DISH.jpg" alt="Signature Dish">
+                    <h3>Signature Dish</h3>
+                    <p>Our chef's masterpiece, prepared with seasonal ingredients</p>
+                </div>
+                <div class="featured-item">
+                    <img src="IMAGES/WINE SELECTION.jpg" alt="Wine Selection">
+                    <h3>Premium Wines</h3>
+                    <p>Curated selection from the world's finest vineyards</p>
+                </div>
+                <div class="featured-item">
+                    <img src="IMAGES/DESSERTS.jpg" alt="Dessert">
+                    <h3>Decadent Desserts</h3>
+                    <p>Sweet endings to your perfect meal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form" class="reservation-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" id="time" required>
+                </div>
+                <div class="form-group">
+                    <select id="guests" required>
+                        <option value="" disabled selected>Number of Guests</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3-4">3-4 People</option>
+                        <option value="5-6">5-6 People</option>
+                        <option value="7+">7+ People</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="special-requests" placeholder="Special Requests"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"The ambiance and food were absolutely perfect for our anniversary dinner. Highly recommend!"</p>
+                    <h4>- Sarah Johnson</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Exceptional service and the wine pairing was spot on. We'll definitely be back."</p>
+                    <h4>- Michael Chen</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Every dish was a work of art. The tasting menu was worth every penny."</p>
+                    <h4>- Emily Rodriguez</h4>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ELEGANCE</h3>
+                    <p>Premium dining experience in the heart of the city.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Hours</h3>
+                    <p>Monday - Thursday: 5pm - 11pm</p>
+                    <p>Friday - Saturday: 5pm - 12am</p>
+                    <p>Sunday: 5pm - 10pm</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>123 Gourmet Avenue</p>
+                    <p>Cityville, CV 12345</p>
+                    <p>Phone: (254) 714730894</p>
+                    <p>Email: info@elegance.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Elegance Restaurant. All rights reserved.</p>
+                <p>Designed by Nicole Whittney Akeyo</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
