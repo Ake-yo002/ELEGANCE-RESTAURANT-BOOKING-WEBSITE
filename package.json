@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-booking-website",
+  "version": "1.0.0",
+  "description": "Elegance Restaurant Booking System\r Final Web Development Project\r By Nicole Whittney Akeyo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ake-yo002/ELEGANCE-RESTAURANT-BOOKING-WEBSITE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ake-yo002/ELEGANCE-RESTAURANT-BOOKING-WEBSITE/issues"
+  },
+  "homepage": "https://github.com/Ake-yo002/ELEGANCE-RESTAURANT-BOOKING-WEBSITE#readme"
+}
